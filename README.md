@@ -123,8 +123,8 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 - ✅ Average rating updates live
 - ✅ Duplicate reviews are prevented
 
+
 ---
+## ScreenShots
 
-## 💡 Author
-
-Built with ❤️ for Fitpage Assignment by Razor.
+![Screenshot 2025-06-18 123119](https://github.com/user-attachments/assets/0fbd9f54-0e85-4033-b476-6087df83fb97)
