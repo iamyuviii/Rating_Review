@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS ratings_db;
+USE ratings_db;
+
+CREATE TABLE Products (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  description TEXT
+);
+
+CREATE TABLE Reviews (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  rating INT NOT NULL CHECK (rating BETWEEN 1 AND 5),
+  review TEXT,
+  tags JSON,
+  ProductId INT,
+  FOREIGN KEY (ProductId) REFERENCES Products(id) ON DELETE CASCADE
+);
